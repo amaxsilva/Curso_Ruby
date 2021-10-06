@@ -1,0 +1,12 @@
+---
+default: --profile progress -p homolog -p chrome    #mudar para producao ou homolog quando necessario ou navegador
+pretty: --format pretty
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
+progress: --format progress #roda sem mostrar o cenário
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+safari: BROWSER=safari
+ie: BROWSER=ie
+poltergeist: BROWSER=poltergeist
+
